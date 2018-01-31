@@ -1,0 +1,10 @@
+<h3>Uers list</h3>
+<div class="row">
+  <li *ngFor="let user of users" [routerLink]="['/user', user.id]" class="col-md-3">
+    <div class="thumbnail flex">
+      <h4 class="text-center">{{user.name}}</h4>
+      <h5 class="text-center">Age:{{user.age}}</h5>
+    </div>
+  </li>
+</div>
+<app-user-search></app-user-search>

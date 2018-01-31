@@ -1,0 +1,21 @@
+.users li{
+    list-style: none;
+}
+.btn{
+margin-right: 80px;
+margin-bottom: 5px; 
+}
+.delete{
+    border-radius: 50%;
+    background-color:red;
+    color: white;
+}
+.btn:hover{
+    padding: 5px;
+    border: 5px;
+    background-color: orange;
+    color: white;
+}
+.black{
+    color: black;
+}

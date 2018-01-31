@@ -1,0 +1,14 @@
+.flex{
+    background-color: rgb(243, 202, 202);
+}
+.flex:hover{
+    background-color: forestgreen;
+    color: white;
+    padding: 5px;
+}
+.row li{
+    list-style: none;
+}
+li:hover{
+    padding: 5px;
+}
